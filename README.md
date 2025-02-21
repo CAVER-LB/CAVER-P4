@@ -11,7 +11,7 @@ If you use a different topology, please update the `switch_config.h` file accord
 The `Caver_ToR` folder should be downloaded to the lower-layer switches, while the `Caver_Middle` folder should be downloaded to the upper-layer switches.
 
 ## 2.Build P4 and controller code
-1.Download p4_build.sh and place it in the $(SDE) directory on each switch.
+1.Download p4_build.sh and place it in the `$(SDE)` directory on each switch.
 
 2.Build P4 and controller code using `make` on each switch.
 
